@@ -62,7 +62,7 @@ class Duckbill(Bird, AquaticAnimal, PoisonousAnimal):
 
 db = Duckbill(10)
 
-# Вывод на консоль
+
 print(db.live)
 print(db.beak)
 db.speak()
