@@ -78,10 +78,10 @@ cube1.set_color(300, 70, 15)
 print(cube1.get_color())
 
 cube1.set_sides(5, 3, 12, 4, 5)
-print(cube1.get_sides())  # [6, 6, ..., 6]
+print(cube1.get_sides()) 
 circle1.set_sides(15)
 print(circle1.get_sides())
 
-print(len(circle1))  # 15
+print(len(circle1))
 
-print(cube1.get_volume())  # 216
+print(cube1.get_volume())
